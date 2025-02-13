@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "texto1s",
+  "info": {
+    "singularName": "texto1",
+    "pluralName": "texto1s",
+    "displayName": "texto1"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "texto1": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
