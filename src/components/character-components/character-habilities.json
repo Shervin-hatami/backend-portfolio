@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_character_components_character_habilities",
+  "info": {
+    "displayName": "character-habilities",
+    "icon": "magic"
+  },
+  "options": {},
+  "attributes": {
+    "CombatStyle": {
+      "type": "enumeration",
+      "enum": [
+        "melee",
+        "ranged",
+        "mid-range"
+      ],
+      "required": true
+    },
+    "PasiveSkill": {
+      "type": "enumeration",
+      "enum": [
+        "regeneration",
+        "extra-crit-chane",
+        "doble-armor",
+        "poison-imunity"
+      ],
+      "required": true
+    }
+  }
+}

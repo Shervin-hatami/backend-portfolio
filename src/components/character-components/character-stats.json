@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_character_components_character_stats",
+  "info": {
+    "displayName": "character-stats",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "statName": {
+      "type": "string",
+      "required": true
+    },
+    "statValue": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

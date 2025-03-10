@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_character_components_character_builds",
+  "info": {
+    "displayName": "character-build",
+    "icon": "alien",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "stats": {
+      "type": "component",
+      "repeatable": true,
+      "component": "character-components.character-stats",
+      "required": true
+    },
+    "habilities": {
+      "type": "component",
+      "repeatable": false,
+      "component": "character-components.character-habilities"
+    }
+  }
+}

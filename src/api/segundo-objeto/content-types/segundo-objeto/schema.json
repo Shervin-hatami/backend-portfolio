@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "segundo_objetos",
+  "info": {
+    "singularName": "segundo-objeto",
+    "pluralName": "segundo-objetos",
+    "displayName": "segundo-objeto",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "text",
+      "required": true
+    },
+    "foto": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "primer_objetos": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::primer-objeto.primer-objeto",
+      "inversedBy": "segundo_objetos"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "nombre",
+      "required": true
+    }
+  }
+}

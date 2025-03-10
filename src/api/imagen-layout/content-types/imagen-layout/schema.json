@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "imagen_layouts",
+  "info": {
+    "singularName": "imagen-layout",
+    "pluralName": "imagen-layouts",
+    "displayName": "imagen-layout"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imagenLayout": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

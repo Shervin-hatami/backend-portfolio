@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "primer_objetos",
+  "info": {
+    "singularName": "primer-objeto",
+    "pluralName": "primer-objetos",
+    "displayName": "primer-objeto"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "foto": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "descripcion": {
+      "type": "text",
+      "required": true
+    },
+    "segundo_objetos": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::segundo-objeto.segundo-objeto",
+      "mappedBy": "primer_objetos"
+    }
+  }
+}
